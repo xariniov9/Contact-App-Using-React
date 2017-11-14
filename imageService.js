@@ -1,4 +1,5 @@
-const multer = require('multer')
+const multer = require('multer');
+
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, './contact-app/public/images')

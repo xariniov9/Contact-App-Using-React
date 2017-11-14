@@ -87,7 +87,7 @@ class AddContact extends Component {
                                 <input ref="mPersonal" id="icon_telephone1" type="tel" class="validate" className="form-control"></input>
                                     <label for="icon_telephone1">Personal Phone</label>
                             </div>
-                            <div className='input-field col s2' onClick={this.onClickUploadImage}>
+                            <div className='input-field col s2'>
                                 <input type='file' id='file_upload_input' accept='image/*' />
                             </div>
 

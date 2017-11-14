@@ -13,7 +13,7 @@ const Contact = ({contact, editContact}) => {
     return (
 
         <div class="row">
-            <div class="col s6 m7">
+            <div class="col s10 m8">
                 <div class="card cardsmall">
 
                     <div class="card-content">
@@ -22,7 +22,7 @@ const Contact = ({contact, editContact}) => {
                             <img src={imgSrc}  alt="profile picture" class="circle responsive-img"/>
                             <span class="card-title">{contact.name}</span>
                         </div>
-                        <div class = "col s4">
+                        <div class = "col s6 m6">
                             <h4><i class="material-icons">local_phone</i> {contact.phone_office}</h4>
                             <h4><i class="material-icons">phone_iphone</i>  {contact.phone_personal}</h4>
                         </div>
