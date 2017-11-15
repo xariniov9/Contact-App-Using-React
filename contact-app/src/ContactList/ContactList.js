@@ -13,18 +13,18 @@ const Contact = ({contact, editContact}) => {
     return (
 
         <div class="row">
-            <div class="col s10 m8">
+            <div class="col s12 m12">
                 <div class="card cardsmall">
 
                     <div class="card-content">
-                        <div class = "row">
-                        <div class="col s2">
+                        <div class = "row small">
+                        <div class="col s2 inlineblock">
                             <img src={imgSrc}  alt="profile picture" class="circle responsive-img"/>
                             <span class="card-title">{contact.name}</span>
                         </div>
-                        <div class = "col s6 m6">
-                            <h4><i class="material-icons">local_phone</i> {contact.phone_office}</h4>
-                            <h4><i class="material-icons">phone_iphone</i>  {contact.phone_personal}</h4>
+                        <div class = "col s6 inlineblock">
+                            <h5><i class="material-icons">local_phone</i> {contact.phone_office}</h5>
+                            <h5><i class="material-icons">phone_iphone</i>  {contact.phone_personal}</h5>
                         </div>
                         </div>
                     </div>

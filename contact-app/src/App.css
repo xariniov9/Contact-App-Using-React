@@ -18,7 +18,15 @@
 }
 
 .cardsmall{
-  align: center;
+  width:800px;
+  margin:0 auto;
+}
 
-  margin-left: 40%;
+.inlineblock {
+  display: inline-block;
+}
+
+.cardlarge{
+  width:1200px;
+  margin:0 auto;
 }

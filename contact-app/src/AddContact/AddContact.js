@@ -62,7 +62,7 @@ class AddContact extends Component {
     render() {
         this.state.imgSource = 'person-placeholder.jpg'
         return (
-            <div className="container">
+            <div className="container cardlarge">
                 <span>
                     <h4> Add New Contact</h4>
                 </span>
@@ -70,24 +70,24 @@ class AddContact extends Component {
                 <div class="row">
                     <form class="col s12">
                         <div class="row">
-                            <div class="input-field col s2">
+                            <div class="input-field col">
                                 <i class="material-icons prefix">account_circle</i>
                                 <input ref = "name" id="icon_prefix" type="text" class="validate" className="form-control"></input>
                                     <label for="icon_prefix">Name</label>
                             </div>
 
-                            <div class="input-field col s2">
+                            <div class="input-field col">
                                 <i class="material-icons prefix">phone</i>
                                 <input ref="mOffice" id="icon_telephone" type="tel" class="validate" className="form-control"></input>
                                     <label for="icon_telephone">Office Phone</label>
                             </div>
 
-                            <div class="input-field col s2">
+                            <div class="input-field col">
                                 <i class="material-icons prefix">phone_iphone</i>
                                 <input ref="mPersonal" id="icon_telephone1" type="tel" class="validate" className="form-control"></input>
                                     <label for="icon_telephone1">Personal Phone</label>
                             </div>
-                            <div className='input-field col s2'>
+                            <div className='input-field col'>
                                 <input type='file' id='file_upload_input' accept='image/*' />
                             </div>
 

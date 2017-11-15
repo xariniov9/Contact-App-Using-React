@@ -30,7 +30,7 @@ class EditContact extends Component{
     render(){
         console.log(this.props.contact);
         return (
-            <div className="container">
+            <div className="container cardlarge">
                 <span>
                     <h4>Edit Contact</h4>
                 </span>
@@ -38,19 +38,19 @@ class EditContact extends Component{
                 <div class="row">
                     <form class="col s12">
                         <div class="row">
-                            <div class="input-field col s3">
+                            <div class="input-field col">
                                 <i class="material-icons prefix">account_circle</i>
                                 <input ref = "name" id="icon_prefix" type="text" class="validate" className="form-control"></input>
                                 <label for="icon_prefix">{this.props.contact.name}</label>
                             </div>
 
-                            <div class="input-field col s3">
+                            <div class="input-field col">
                                 <i class="material-icons prefix">phone</i>
                                 <input ref="mOffice" id="icon_telephone" type="tel" class="validate" className="form-control"></input>
                                 <label for="icon_telephone">{this.props.contact.phone_office}</label>
                             </div>
 
-                            <div class="input-field col s3">
+                            <div class="input-field col">
                                 <i class="material-icons prefix">phone_iphone</i>
                                 <input ref="mPersonal" id="icon_telephone1" type="tel" class="validate" className="form-control"></input>
                                 <label for="icon_telephone1">{this.props.contact.phone_personal}</label>
